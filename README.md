@@ -55,7 +55,7 @@ Example: http://localhost:8080/custumerId=1/addwallet
 
 # Create Customer
 
-URI: http://localhost:8080/customer/addCustomer
+URL: http://localhost:8080/customer/addCustomer
 
 ```json
 {
@@ -83,7 +83,7 @@ URI: http://localhost:8080/custumerId=2/addwallet
 ```
 
 - money will store in *number* but the double quotation is important.
-
+- URI mean the link is not fixed like the URL.
 
 
 # Add money or transfer to IBAN
@@ -99,7 +99,6 @@ URI: http://localhost:8080/custumerId=1/transferMoneyFromSarWalletToIban=2353
 ```
 
 - curly braces is necessary.
-- URI mean the link is not fixed like the URL.
 
 
 
@@ -118,7 +117,7 @@ URI: http://localhost:8080/customerId=1/walletId=1
 
 # list all Transaction for all Customer
 
-URI: http://localhost:8080/customer/allCustomers
+URL: http://localhost:8080/customer/allCustomers
 
 ```json
 
